@@ -1,0 +1,29 @@
+
+
+.menu-button{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: row;
+    margin-bottom:20px ;
+}
+.b-project{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-right: 25px;
+}
+.b-about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer; 
+}
+p{
+    margin: 0;
+}
+.p-bold{
+    margin: 0;
+    font-weight: bold;
+}

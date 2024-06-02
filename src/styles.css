@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; 
+  background-color: rgb(232, 233, 233)
+}
+@import '~@angular/material/prebuilt-themes/indigo-pink.css'; /* Or whichever theme you are using */
+
+.cdk-overlay-backdrop {
+    background-color: rgba(0, 0, 0, 0.7) !important; /* Adjust the opacity as needed */
+  }
+  
+  .app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Use align-items instead of align-content for vertical centering */
+    height: 100%; /* Ensure the container takes up the full height of the viewport */
+  }
